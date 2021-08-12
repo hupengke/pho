@@ -1,0 +1,438 @@
+.tame{
+    .container{
+        width: 100%;
+        padding: 0%;
+    }
+    .demo{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        .fong{
+            width: 42%;
+            margin: 0 auto;
+            text-align: center;
+            background: #f8f8f8;
+            img{
+                width: 55%;
+                margin: 0 auto;
+            }
+        }
+        .fong1{
+            width: 50%;
+            margin-left: 2%;
+            .list1{
+                h3{
+                    font-size: 2vw;
+                    color: #242424;
+                }
+                p{
+                    margin-right: 18%;
+                    font-size: 1vw;
+                }
+            }
+            .list01{
+                background: #000000;
+                width: 15%;
+                margin-bottom: 1vw;
+                margin-top: 1vw;
+                padding: .5em;
+                span{
+                    font-size: 1.5vw;
+                    color: #ffffff;
+                }
+            }
+        }
+
+
+
+
+        .list2{
+            width: 100%;
+            .mm{
+                margin-bottom: 1vw;
+                margin-top: 1vw;
+            }
+            .m2{
+                color: red;
+                font-size: 1.2em;
+            }
+            .name{
+                display: flex;
+                border:1px solid #b1b0b0;
+                width: 15%;
+                border-radius:15px;
+                margin-bottom: .5em;
+                span{
+                    color: #b1b0b0;
+                    margin-left: 13%;
+                    margin-top: 1%;
+                }
+                input,select, textarea{
+                        width: 45%;
+                        border: transparent;
+                    }
+                }
+            .name1{
+                display: flex;
+                border:1px solid #b1b0b0;
+                width: 28%;
+                border-radius:15px;
+                margin-bottom: .5em;
+                span{
+                    color: #b1b0b0;
+                    margin-left: 13%;
+                    margin-top: 1%;
+                }
+                input,select, textarea{
+                        width: 58%;
+                        border: transparent;
+                    }
+            }
+    }
+
+        .list3{
+            width: 100%;
+            margin-top: 1em;
+            .c1{
+                background:#eb1f1f;
+                border: transparent;
+                color: #fff;
+                border-radius:15px;
+                width: 16%;
+                padding: .3em;
+                font-size: 1vw;
+            }
+            .c2{
+                border: transparent;
+                color: #fff;
+                border-radius:15px;
+                background: #1f2022;
+                margin-left:2% ;
+                width: 16%;
+                padding: .3em;
+                font-size: 1vw;
+            }
+        }
+    }
+}
+  @media screen  and(max-width:1200px){
+      .tame{
+          .demo{
+              .fong1{
+                 .list01{
+                     width:20%;
+                     span{
+                         margin-left: 13%;
+                     }
+                 }
+              }
+              .fong{
+                  img{
+                     width: 58%;
+                  }
+              }
+          }
+          .list2{
+              .name{
+                  width: 16%;
+              }
+          }
+      }
+  }
+  @media screen  and(max-width:1100px){
+    .tame{
+        .demo{
+            .list2{
+                .name{
+                    width: 18%;
+                }
+            }
+            .fong{
+                img{
+                    width: 61%;
+                }
+            }
+        }
+    }
+  }
+  @media screen  and(max-width:1000px){
+    .tame{
+        .demo{
+            .fong1{
+                .list1{
+                    p{
+                        margin-right: 16%;
+                    }
+                }
+            }
+            .fong{
+                img{
+                    width: 67%;
+                }
+            }
+            .list2{
+                .name{
+                    width: 20%;
+                    input{
+                        width: 45%;
+                    }
+                }
+            }
+        }
+    }
+  }
+
+  @media screen  and(max-width:940px){
+    .tame{
+        .demo{
+            .fong{
+                img{
+                    width: 69%;
+                }
+            }
+
+            .list2{
+                .name1{
+                width: 30%;
+                }
+            }
+        }
+    }
+  }
+
+  @media screen  and(max-width:850px){
+    .tame{
+        .demo{
+            .list2{
+                .name{
+                width: 25%;
+                }
+                .name1{
+                    width: 36%;
+                input,select,textarea{
+                        width: 60%;
+                    }
+                    span{
+                        margin-left: 9%;
+                    }
+                }
+            }
+            .list3{
+                .c1{
+                    width: 20%;
+                    padding: .5em;
+                }
+                .c2{
+                    width: 20%;
+                    padding: .5em;
+                }
+            }
+
+            .fong{
+                img{
+                    width: 73%;
+                }
+            }
+        }
+    }
+  }
+
+  @media screen  and(max-width:730px){
+    .tame{
+        .demo{
+            .fong1{
+                .list01{
+                    width: 23%;
+                }
+            }
+            .list3{
+                .c1{
+                    width: 22%;
+                }
+                .c2{
+                    width: 22%;
+                }
+            }
+        }
+    }
+  }
+
+  @media screen  and(max-width:700px){
+      .tame{
+          .demo{
+              flex-wrap: wrap;
+              .fong1{
+                  .list01{
+                      width: 15%;
+                  }
+              }
+              .fong{
+                  width: 100%;
+                  img{
+                    width: 45%;
+                  }
+              }
+              .fong1{
+                  width: 100%;
+              }
+              .list2{
+                  .name{
+                      width: 18%;
+                  }
+                  .name1{
+                      width: 25%;
+                  }
+              }
+          }
+      }
+  }
+  @media screen  and(max-width:490px){
+    .tame{
+        .demo{
+            .fong1{
+                .list1{
+                     p{
+                    margin-right: 0%;
+                }
+                }
+               
+            }
+        }
+    }
+  }
+
+  @media screen  and(max-width:430px){
+      .tame{
+          .demo{
+              .fong1{
+                  .list01{
+                      width: 23%;
+                  }
+              }
+              .list2{
+                  .name{
+                      width: 27%;
+                  }
+                  .name1{
+                      width: 37%;
+                  }
+              }
+              .list3{
+                  .c1{
+                    width: 25%;
+                    padding: .9em;
+                  }
+                  .c2{
+                    width: 25%;
+                    padding: .9em;
+                  }
+              }
+          }
+      }
+  }
+
+//   work
+
+.work{
+    padding: 4em 0em 3em;
+    .container{
+        width: 99%;
+    }
+    .boot{
+        text-align: center;
+        h3{
+            font-size: 2em;
+            color: #242424;
+        }
+    }
+
+    .namelist{
+        display: flex;
+        .list1{
+            width: 25%;
+            .txt{
+            text-align: center;
+            span{
+                color: #a9a9a9;
+            }
+            }
+        }
+        .list2{
+            width: 25%;
+            .txt{
+                text-align: center;
+                .g{
+                    span{
+                        color: red;
+                    }
+                }
+            }
+        }
+        .list3{
+            width: 25%;
+            .txt{
+                text-align: center;
+                span{
+                color: #a9a9a9;
+                }
+            }
+        }
+        .list4{
+            width: 25%;
+            .txt{
+                text-align: center;
+                    span{
+                        color: #a9a9a9;
+                }
+            }
+        }
+
+        h5{
+            color: #a9a9a9;
+            font-size: .6em;
+        }
+        p{
+            color: #505050;
+            font-size: 1.2vw;
+        }
+    }
+}
+
+
+@media screen and(max-width:470px){
+    .work{
+        .namelist{
+            .list1{ 
+                .txt{
+                    flex-wrap: nowrap;
+                    overflow-x:scroll;
+                    white-space:nowrap;
+                }
+            }
+            .list2{
+                img{
+                    width: 99%;
+                }
+                .txt{
+                    flex-wrap: nowrap;
+                    overflow-x:scroll;
+                    white-space:nowrap;
+                }
+            }
+            .list3{
+                .txt{
+                    flex-wrap: nowrap;
+                    overflow-x:scroll;
+                    white-space:nowrap;
+                }
+            }
+            .list4{
+                .txt{
+                    flex-wrap: nowrap;
+                    overflow-x:scroll;
+                    white-space:nowrap;
+                }
+            }
+        }
+    }
+}
