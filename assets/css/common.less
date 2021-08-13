@@ -25,8 +25,23 @@
             transition:all linear .3s;
         }
     }
+    .ih{
+        width: 100%;
+    }
     .navbar-right{
         text-align: center;
+        position: relative; 
+        .ios{
+            top: 0;
+            right: 0;
+            width: 20px;
+            position: absolute;
+            background: red;
+            border-radius: 100%;
+            i{
+                color: #fff;
+            }
+        }
     }
     .navbar-default{
         background-color: transparent;
@@ -40,7 +55,27 @@
    
 }
 
+@media screen and (max-width:767px)
+{
+   .header{
+       .navbar-right{
+           .ios{
+               right: 46%;
+           }
+       }
+   }
+}
 
+@media screen and (max-width:470px)
+{
+   .header{
+       .navbar-right{
+           .ios{
+               right: 43%;
+           }
+       }
+   }
+}
 
  // footer
  .footer{
